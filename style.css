@@ -1,0 +1,36 @@
+.alert_zone {
+    width: 100%;
+    height: 100%;
+    background-color: darkgray;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+}
+
+.alert_content {
+    width: 40%;
+    text-align: end;
+    position: fixed;
+    left: 35vw;
+    top: 20vh;
+}
+
+.alert_content img {
+    width: 100%;
+    margin-top: -18px;
+}
+
+.hide {
+    display: none;
+}
+
+.img_list {
+    display: flex;
+    gap: 5px;
+    position: relative;
+}
+
+.img_list img {
+    width: 80px;
+    height: 80px;
+}
